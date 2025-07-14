@@ -1,11 +1,11 @@
-# SuperClaude – Development Framework for Claude Code
+# SuperMarketer – Marketing Framework for Claude
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)](https://github.com/NomenAK/SuperClaude)
 [![GitHub issues](https://img.shields.io/github/issues/NomenAK/SuperClaude)](https://github.com/NomenAK/SuperClaude/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/NomenAK/SuperClaude/blob/master/CONTRIBUTING.md)
 
-**A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.**
+**A configuration framework that enhances Claude with specialized marketing commands, personas, and workflows.**
 
 ## 🚀 Version 2.0.1 Update
 
@@ -19,26 +19,26 @@ SuperClaude v2 introduces architectural improvements focused on maintainability 
 - **🔧 Modular Design**: Template system for adding new commands and features
 - **🎯 Unified Experience**: Consistent flag behavior across all commands
 
-See [ROADMAP.md](ROADMAP.md) for future development ideas and contribution opportunities.
+See [ROADMAP.md](ROADMAP.md) for future marketing ideas and contribution opportunities.
 
 ## 🎯 Background
 
-Claude Code provides powerful capabilities but can benefit from:
-- **Specialized expertise** for different technical domains
-- **Token efficiency** for complex projects  
-- **Evidence-based approaches** to development
-- **Context preservation** during debugging sessions
-- **Domain-specific thinking** for various tasks
+Claude provides powerful capabilities but can benefit from:
+- **Specialized expertise** for different marketing domains
+- **Token efficiency** for large campaigns
+- **Data-driven approaches** to marketing
+- **Context preservation** during campaign iterations
+- **Channel-specific thinking** for various tasks
 
 ## ✨ SuperClaude Features
 
-SuperClaude enhances Claude Code with:
-- **18 Specialized Commands** covering development lifecycle tasks
-- **9 Cognitive Personas** for domain-specific approaches
+SuperMarketer enhances Claude with:
+- **Marketing Commands** for campaigns, SEO, branding, and analytics
+- **9 Marketing Personas** for domain-specific expertise
 - **Token Optimization** with compression options
-- **Evidence-Based Methodology** encouraging documentation
+- **Evidence-Based Approach** for data-driven decisions
 - **MCP Integration** with Context7, Sequential, Magic, Puppeteer
-- **Git Checkpoint Support** for safe experimentation
+- **Campaign Checkpoint Support** for safe experimentation
 - **Introspection Mode** for framework improvement and troubleshooting
 
 ## 🚀 Installation
@@ -79,39 +79,36 @@ Zero dependencies. Installs to `~/.claude/` by default.
 Switch between different approaches with persona flags:
 
 ```bash
-/analyze --code --persona-architect     # Systems thinking approach
-/build --react --persona-frontend       # UX-focused development  
-/scan --security --persona-security     # Security-first analysis
-/troubleshoot --prod --persona-analyzer # Root cause analysis approach
+/campaign --launch --persona-brand           # Strategic campaign planning
+/seo --audit --persona-seo                   # Search optimization review
+/ads --optimize --persona-ad                 # Advertising improvements
+/partnership --outreach --persona-partnership # Collaboration opportunities
 ```
 
 **v2.0.1 Update**: All 9 personas are now universal flags, available on every command for consistent access to specialized approaches.
 
-### ⚡ **19 Commands**
-Development lifecycle coverage:
+### ⚡ **Marketing Commands**
+Campaign and brand management:
 
-**Development Commands**
+**Campaign Management**
 ```bash
-/build --react --magic --tdd    # Development with AI components
-/dev-setup --ci --monitor       # Environment setup
-/test --coverage --e2e --pup    # Testing strategies
+/campaign --launch --channels email,social   # Run digital campaign
+/ads --create --budget 1000                  # Launch advertising
+/seo --audit --report                        # SEO analysis
 ```
 
-**Analysis & Quality**
+**Brand & Content**
 ```bash
-/review --quality --evidence --persona-qa     # AI-powered code review
-/analyze --architecture --seq   # System analysis
-/troubleshoot --prod --five-whys # Issue resolution
-/improve --performance --iterate # Optimization
-/explain --depth expert --visual # Documentation
+/brand --design --guide                      # Brand asset creation
+/content --plan --calendar                   # Content calendar
+/social --schedule --persona-social          # Social engagement
 ```
 
-**Operations & Security**
+**Analytics & Outreach**
 ```bash
-/deploy --env prod --plan       # Deployment planning
-/scan --security --owasp --deps # Security audits
-/migrate --dry-run --rollback   # Database migrations
-/cleanup --all --validate       # Maintenance tasks
+/analytics --report --persona-analytics      # Performance tracking
+/partnership --outreach --crm                # Partnership outreach
+/optimize --iterate --persona-brand          # Campaign improvements
 ```
 
 ### 🎛️ **MCP Integration**
@@ -131,49 +128,48 @@ SuperClaude's @include template system helps manage token usage:
 
 ## 🎮 Example Workflows
 
-### Enterprise Architecture Flow
+### Digital Campaign Launch
 ```bash
-/design --api --ddd --bounded-context --persona-architect    # Domain-driven design
-/estimate --detailed --worst-case --seq                      # Resource planning
-/scan --security --validate --persona-security               # Security review
-/build --api --tdd --coverage --persona-backend              # Implementation
+/campaign --launch --persona-brand                 # Plan campaign strategy
+/ads --create --budget 5000                        # Set up advertising
+/seo --audit --persona-seo                         # Optimize search presence
+/content --plan --calendar                         # Content schedule
 ```
 
-### Production Issue Resolution
+### SEO Performance Improvement
 ```bash
-/troubleshoot --investigate --prod --persona-analyzer        # Analysis
-/analyze --profile --perf --seq                             # Performance review
-/improve --performance --threshold 95% --persona-performance # Optimization
-/test --integration --e2e --pup                             # Validation
+/seo --audit --persona-seo                         # Audit ranking factors
+/optimize --iterate --persona-analytics            # Improve results
+/analytics --report --persona-analytics            # Track metrics
 ```
 
-### Framework Troubleshooting & Improvement
+### Marketing Framework Enhancement
 ```bash
-/troubleshoot --introspect                                  # Debug SuperClaude behavior
-/analyze --introspect --seq                                 # Analyze framework patterns
-/improve --introspect --uc                                  # Optimize token usage
+/troubleshoot --introspect                         # Debug SuperMarketer behavior
+/analyze --introspect --seq                        # Analyze framework patterns
+/improve --introspect --uc                         # Optimize token usage
 ```
 
-### Full-Stack Feature Development
+### Cross-Channel Execution
 ```bash
-/build --react --magic --watch --persona-frontend           # UI development
-/test --coverage --e2e --strict --persona-qa                # Quality assurance
-/scan --validate --deps --persona-security                  # Security check
+/campaign --launch --channels all --persona-brand  # Deploy across channels
+/social --schedule --persona-social                # Social media actions
+/analytics --report --persona-analytics            # Monitor performance
 ```
 
 ## 🎭 Available Personas
 
 | Persona | Focus Area | Tools | Use Cases |
 |---------|-----------|-------|-----------|
-| **architect** | System design | Sequential, Context7 | Architecture planning |
-| **frontend** | User experience | Magic, Puppeteer, Context7 | UI development |
-| **backend** | Server systems | Context7, Sequential | API development |
-| **security** | Security analysis | Sequential, Context7 | Security reviews |
-| **analyzer** | Problem solving | All MCP tools | Debugging |
-| **qa** | Quality assurance | Puppeteer, Context7 | Testing |
-| **performance** | Optimization | Puppeteer, Sequential | Performance tuning |
-| **refactorer** | Code quality | Sequential, Context7 | Code improvement |
-| **mentor** | Knowledge sharing | Context7, Sequential | Documentation |
+| **brand** | Brand strategy | Context7, Magic | Campaign positioning |
+| **seo** | Search optimization | Sequential, Context7 | SEO audits |
+| **ad** | Paid advertising | Magic, Puppeteer | Ad management |
+| **partnership** | Partnerships | Sequential | Outreach planning |
+| **content** | Content creation | Magic, Context7 | Blog and copywriting |
+| **design** | Graphic design | Magic | Visual assets |
+| **social** | Social media | Puppeteer, Context7 | Social engagement |
+| **offline** | Offline marketing | Sequential | Event planning |
+| **analytics** | Marketing analytics | Context7, Sequential | Performance reporting |
 
 ## 🛠️ Configuration Options
 
@@ -204,7 +200,7 @@ SuperClaude's @include template system helps manage token usage:
 ### Token Management
 ```bash
 # Standard mode
-/build --react --magic
+/campaign --launch --channels email
 
 # With compression
 /analyze --architecture --uc
@@ -213,42 +209,42 @@ SuperClaude's @include template system helps manage token usage:
 /scan --security --no-mcp
 ```
 
-### Evidence-Based Development
-SuperClaude encourages:
-- Documentation for design decisions
-- Testing for quality improvements
+### Evidence-Based Marketing
+SuperMarketer encourages:
+- Documentation for campaign decisions
+- Testing for content effectiveness
 - Metrics for performance work
-- Security validation for deployments
-- Analysis for architectural choices
+- Compliance validation for campaigns
+- Analysis for strategic choices
 
 ## 📋 Command Categories
 
-### Development (3 Commands)
-- `/build` - Project builder with stack templates
-- `/dev-setup` - Development environment setup
-- `/test` - Testing framework
+### Campaigns (3 Commands)
+- `/campaign` - Launch and manage campaigns
+- `/ads` - Paid advertising management
+- `/seo` - Search optimization audits
 
-### Analysis & Improvement (5 Commands)
-- `/review` - AI-powered code review with evidence-based recommendations
-- `/analyze` - Code and system analysis
-- `/troubleshoot` - Debugging and issue resolution
-- `/improve` - Enhancement and optimization
-- `/explain` - Documentation and explanations
+### Content & Brand (5 Commands)
+- `/brand` - Brand design and guidelines
+- `/content` - Content planning and creation
+- `/social` - Social media scheduling
+- `/design` - Graphic asset creation
+- `/document` - Marketing documentation
 
-### Operations (6 Commands)
-- `/deploy` - Application deployment
-- `/migrate` - Database and code migrations
-- `/scan` - Security and validation
-- `/estimate` - Project estimation
-- `/cleanup` - Project maintenance
-- `/git` - Git workflow management
+### Analytics & Outreach (6 Commands)
+- `/analytics` - Performance reporting
+- `/partnership` - Partnership outreach
+- `/optimize` - Campaign optimization
+- `/estimate` - Budget estimation
+- `/cleanup` - Campaign cleanup
+- `/git` - Repository management
 
-### Design & Workflow (5 Commands)
-- `/design` - System architecture
-- `/spawn` - Parallel task execution
-- `/document` - Documentation creation
+### Workflow (5 Commands)
 - `/load` - Project context loading
 - `/task` - Task management
+- `/spawn` - Parallel task execution
+- `/explain` - Campaign explanations
+- `/troubleshoot` - Debug framework issues
 
 ## 🔧 Technical Architecture v2
 
@@ -260,8 +256,7 @@ SuperClaude v2's architecture enables extensibility:
 - **commands/shared/** – Reusable command patterns
 - **@include System** – Template engine for configuration
 
-**🎯 Unified Command System**
-- **19 Commands** – Development lifecycle coverage
+- **Marketing Commands** – Campaign lifecycle coverage
 - **Flag Inheritance** – Universal flags on all commands
 - **Persona Integration** – 9 cognitive modes as flags
 - **Template Validation** – Reference integrity checking
@@ -280,35 +275,35 @@ SuperClaude v2's architecture enables extensibility:
 
 ## 📊 Comparison
 
-| Aspect | Standard Claude Code | SuperClaude Framework |
-|--------|---------------------|----------------------|
-| **Expertise** | General responses | 9 specialized personas |
-| **Commands** | Manual instructions | 19 workflow commands |
-| **Context** | Session-based | Git checkpoint support |
+| Aspect | Standard Claude | SuperMarketer Framework |
+|--------|----------------|------------------------|
+| **Expertise** | General responses | 9 marketing personas |
+| **Commands** | Manual prompts | Marketing workflow commands |
+| **Context** | Session-based | Campaign history support |
 | **Tokens** | Standard usage | Compression options |
-| **Approach** | General purpose | Evidence-based |
-| **Documentation** | As needed | Systematic approach |
+| **Approach** | General purpose | Data-driven marketing |
+| **Documentation** | As needed | Systematic campaign docs |
 | **Quality** | Variable | Validation patterns |
 | **Integration** | Basic tools | MCP orchestration |
 
 ## 🔮 Use Cases
 
-**Development Teams**
-- Consistent approaches across domains
-- Standardized workflows
-- Evidence-based decisions
-- Documentation practices
+**Marketing Teams**
+- Consistent approaches across channels
+- Standardized campaign workflows
+- Data-driven decisions
+- Brand documentation practices
 
-**Technical Leaders**
-- Architecture reviews
+**Marketing Directors**
+- Strategy reviews
 - Performance optimization
-- Code quality improvement
+- Creative quality improvement
 - Team knowledge sharing
 
-**Operations**
-- Deployment procedures
-- Debugging workflows
-- Security management
+**Campaign Operations**
+- Campaign deployment procedures
+- Troubleshooting workflows
+- Asset management
 - Maintenance tasks
 
 ## 🎯 Suitability
@@ -316,14 +311,14 @@ SuperClaude v2's architecture enables extensibility:
 **Good fit for:**
 - ✅ Teams wanting consistent AI assistance
 - ✅ Projects needing specialized approaches
-- ✅ Evidence-based development practices
+- ✅ Evidence-based marketing practices
 - ✅ Token-conscious workflows
 - ✅ Domain-specific expertise needs
 
 **May not suit:**
 - ❌ Purely manual workflows
 - ❌ Minimal configuration preferences
-- ❌ Ad-hoc development styles
+- ❌ Ad-hoc marketing styles
 - ❌ Single-domain focus
 
 ## 🚦 Getting Started
@@ -336,16 +331,15 @@ SuperClaude v2's architecture enables extensibility:
 2. **Validate Installation**
    ```bash
    /load                                    # Load project context
-   /analyze --code --think                  # Test analysis
-   /analyze --architecture --persona-architect  # Try personas
+   /campaign --help                         # Verify command access
+   /seo --audit --persona-seo               # Test personas
    ```
 
 3. **Example Workflow**
    ```bash
-   /design --api --ddd            # Architecture design
-   /build --feature --tdd         # Implementation
-   /test --coverage --e2e         # Quality assurance
-   /deploy --env staging --plan   # Deployment
+   /campaign --launch --persona-brand       # Plan campaign
+   /ads --create --budget 1000              # Launch ads
+   /analytics --report --persona-analytics  # Analyze results
    ```
 
 ## 🛟 Support
@@ -359,8 +353,8 @@ SuperClaude v2's architecture enables extensibility:
 
 SuperClaude welcomes contributions:
 - **New Personas** for specialized workflows
-- **Commands** for domain-specific operations  
-- **Patterns** for development practices
+- **Commands** for domain-specific operations
+- **Patterns** for marketing practices
 - **Integrations** for productivity tools
 
 Join the community: [Discussions](https://github.com/NomenAK/SuperClaude/discussions)
@@ -380,15 +374,15 @@ Join the community: [Discussions](https://github.com/NomenAK/SuperClaude/discuss
 - **Personas**: 9 cognitive approaches
 - **MCP Servers**: 4 integrations
 - **Methodology**: Evidence-based approach
-- **Usage**: By development teams
+- **Usage**: By marketing teams
 
-## 🎉 Enhance Your Development
+## 🎉 Enhance Your Marketing
 
-SuperClaude provides a structured approach to using Claude Code with specialized commands, personas, and development patterns.
+SuperMarketer provides a structured approach to using Claude with specialized marketing commands, personas, and workflows.
 
 ---
 
-*SuperClaude v2.0.1 – Development framework for Claude Code*
+*SuperMarketer v2.0.1 – Marketing framework for Claude*
 
 [⭐ Star on GitHub](https://github.com/NomenAK/SuperClaude) | [💬 Discussions](https://github.com/NomenAK/SuperClaude/discussions) | [🐛 Report Issues](https://github.com/NomenAK/SuperClaude/issues)
 
